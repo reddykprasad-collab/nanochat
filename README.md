@@ -1,3 +1,26 @@
+# nanochat — PM Fork
+
+**Original repo:** [karpathy/nanochat](https://github.com/karpathy/nanochat)
+
+This fork adds a `/product` directory with AI product management 
+artifacts built on top of the original implementation.
+
+## Product Artifacts
+
+| File | What it is |
+|---|---|
+| `/product/PRD.md` | Production readiness gap analysis + 3-feature roadmap |
+| `/product/model-selection.md` | GPT-4o vs Claude vs Gemini tradeoff for clinical use |
+| `/product/eval-framework.md` | 10-case eval harness with LLM-as-judge automation pattern |
+| `/product/safety-checklist.md` | Pre-deployment safety gates adapted from regulated health context |
+
+## Related Work
+- [regulated-digital-health-pm-playbook](https://github.com/reddykprasad-collab/regulated-digital-health-pm-playbook)
+- [dh](https://github.com/reddykprasad-collab/dh)
+
+---
+
+
 # nanochat
 
 ![nanochat logo](dev/nanochat.png)
